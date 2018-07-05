@@ -1,0 +1,57 @@
+* {
+	vertical-align: baseline;
+	font-family: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	padding: 0;
+	margin: 0;
+  font-family: sans-serif;
+	}
+body {
+	padding: 5px;
+	}
+h1, h2, h3, h4, h5, h6, p, pre, blockquote, ul, ol, dl {
+	margin: 20px 0;
+	}
+li, dd, blockquote {
+	margin-left: 40px;
+	list-style: none;
+	}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	}
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+}
+#root {
+  width: 100%;
+}
+.App {
+  display: flex;
+  justify-content: center;
+}
+.main-container {
+  display: flex;
+  width: 100%;
+}
+.main-container section {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+}
+.twits-box,
+.users-box {
+  display: flex;
+  flex-direction: column;
+}
+.user {
+	cursor: pointer;
+}
